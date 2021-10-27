@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gst calculator</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"> 
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Baloo+Bhai+2&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="gst.css">
+
+  <script src="gst.js"></script>
+</head>
+
+<body>
+
+  <div class="container">
+
+    <h1>GST CALCULATOR</h1>
+
+    <form action="#">
+      <label for="tax">GST Rate:</label>
+      <select id="gst" name="gst">
+        <option value="28%">28%</option>
+        <option value="18%">18%</option>
+        <option value="12%">12%</option>
+        <option value="5%">5%</option>
+      </select>
+    </form>
+    <div class="card">
+      <label for="GST(28%)
+          "> <span>Amount:</span> </label>
+      <input type="text" name="GST(28%)
+        " id="t" placeholder=" GST">
+
+    </div>
+
+    <div class="card">
+      <label for="gst inclusive">Including GST:</label>
+      <input type="text" name="GST(28%)
+      " id="n1" placeholder="price including GST">
+
+
+    </div>
+
+    <div class="card">
+      <label for="Price excluding GST
+        "> Excluding GST:
+      </label>
+      <input type="text" name="Price excluding GST
+        " id="n2" placeholder="Excluding GST
+        T">
+    </div>
+    <div class="card">
+      <label for="onlygst">Only gst:</label>
+      <input type="text" id="n3" placeholder="Only gst">
+    </div>
+
+    <div class="card">
+      <label for="cgst">Cgst:</label>
+      <input type="text" id="n4" placeholder="Cgst">
+    </div>
+
+    <div class="card">
+      <label for="sgst">Sgst:</label>
+      <input type="text" id="n5" placeholder="Ggst">
+    </div>
+
+    <div class="btn" id="gst1">
+      <button onclick="gst();">Submit</button>
+    </div>
+<footer>
+  dharmaseervi
+</footer>
+
+  </div>
+
+
+</body>
+
+
+</html>
